@@ -1,0 +1,27 @@
+{
+  "name": "erc20-token-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/coinfactory/erc20-token-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/coinfactory/erc20-token-contract/issues"
+  },
+  "homepage": "https://gitlab.com/coinfactory/erc20-token-contract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "truffle-plugin-verify": "^0.5.15"
+  }
+}
