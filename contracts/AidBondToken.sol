@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract TWSBToken is Context, AccessControl, Ownable, ERC20, ERC20Pausable, ERC20Burnable {
+contract AidBondToken is Context, AccessControl, Ownable, ERC20, ERC20Pausable, ERC20Burnable {
     bytes32 public constant PAUSER_ROLE = keccak256("PAUSER_ROLE");
 
     uint8 private decimal;
